@@ -7170,8 +7170,8 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="CC3200MOD" library="cc3200mod" deviceset="CC3200" device=""/>
 <part name="ANT_PAD" library="Antenna" deviceset="ANT" device=""/>
-<part name="C1" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="L1" library="Spark" deviceset="INDUCTOR-SPARKFUN" device="0402"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C0402" value="1pF"/>
+<part name="L1" library="Spark" deviceset="INDUCTOR-SPARKFUN" device="0402" value="3.6nH"/>
 <part name="JTAG" library="con-lstb" deviceset="MA06-1" device=""/>
 <part name="U$1" library="LaunchPadXL" deviceset="XL" device=""/>
 <part name="U1" library="TPS63001" deviceset="TPS63001DRCT" device=""/>
