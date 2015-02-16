@@ -62,36 +62,36 @@
 <library>
 <packages>
 <package name="ADS1299_BREAKOUT">
-<pad name="GND" x="-12.7" y="27.178" drill="1.016" shape="octagon"/>
-<pad name="+3.3V" x="-10.16" y="27.178" drill="1.016" shape="octagon"/>
-<pad name="NC" x="-7.62" y="27.178" drill="1.016" shape="octagon"/>
-<pad name="RST" x="-5.08" y="27.178" drill="1.016" shape="octagon"/>
-<pad name="START" x="-2.54" y="27.178" drill="1.016" shape="octagon"/>
-<pad name="DRDY" x="0" y="27.178" drill="1.016" shape="octagon"/>
-<pad name="~CS" x="2.54" y="27.178" drill="1.016" shape="octagon"/>
-<pad name="SCLK" x="5.08" y="27.178" drill="1.016" shape="octagon"/>
-<pad name="~MISO" x="7.62" y="27.178" drill="1.016" shape="octagon"/>
-<pad name="MOSI" x="10.16" y="27.178" drill="1.016" shape="octagon"/>
-<pad name="8N" x="-12.7" y="-17.78" drill="1.016" shape="octagon"/>
-<pad name="7N" x="-10.16" y="-17.78" drill="1.016" shape="octagon"/>
-<pad name="6N" x="-7.62" y="-17.78" drill="1.016" shape="octagon"/>
-<pad name="5N" x="-5.08" y="-17.78" drill="1.016" shape="octagon"/>
-<pad name="4N" x="-2.54" y="-17.78" drill="1.016" shape="octagon"/>
-<pad name="3N" x="0" y="-17.78" drill="1.016" shape="octagon"/>
-<pad name="2N" x="2.54" y="-17.78" drill="1.016" shape="octagon"/>
-<pad name="1N" x="5.08" y="-17.78" drill="1.016" shape="octagon"/>
-<pad name="SR2" x="7.62" y="-17.78" drill="1.016" shape="octagon"/>
-<pad name="SR1" x="10.16" y="-17.78" drill="1.016" shape="octagon"/>
-<pad name="BIAS_DRV" x="10.16" y="-20.32" drill="1.016" shape="octagon"/>
-<pad name="BIAS" x="7.62" y="-20.32" drill="1.016" shape="octagon"/>
-<pad name="1P" x="5.08" y="-20.32" drill="1.016" shape="octagon"/>
-<pad name="2P" x="2.54" y="-20.32" drill="1.016" shape="octagon"/>
-<pad name="3P" x="0" y="-20.32" drill="1.016" shape="octagon"/>
-<pad name="4P" x="-2.54" y="-20.32" drill="1.016" shape="octagon"/>
-<pad name="5P" x="-5.08" y="-20.32" drill="1.016" shape="octagon"/>
-<pad name="6P" x="-7.62" y="-20.32" drill="1.016" shape="octagon"/>
-<pad name="7P" x="-10.16" y="-20.32" drill="1.016" shape="octagon"/>
-<pad name="8P" x="-12.7" y="-20.32" drill="1.016" shape="octagon"/>
+<pad name="GND" x="-12.7" y="27.178" drill="0.9144" shape="octagon"/>
+<pad name="+3.3V" x="-10.16" y="27.178" drill="0.9144" shape="octagon"/>
+<pad name="NC" x="-7.62" y="27.178" drill="0.9144" shape="octagon"/>
+<pad name="RST" x="-5.08" y="27.178" drill="0.9144" shape="octagon"/>
+<pad name="START" x="-2.54" y="27.178" drill="0.9144" shape="octagon"/>
+<pad name="DRDY" x="0" y="27.178" drill="0.9144" shape="octagon"/>
+<pad name="~CS" x="2.54" y="27.178" drill="0.9144" shape="octagon"/>
+<pad name="SCLK" x="5.08" y="27.178" drill="0.9144" shape="octagon"/>
+<pad name="~MISO" x="7.62" y="27.178" drill="0.9144" shape="octagon"/>
+<pad name="MOSI" x="10.16" y="27.178" drill="0.9144" shape="octagon"/>
+<pad name="8N" x="-12.7" y="-17.78" drill="0.9144" shape="octagon"/>
+<pad name="7N" x="-10.16" y="-17.78" drill="0.9144" shape="octagon"/>
+<pad name="6N" x="-7.62" y="-17.78" drill="0.9144" shape="octagon"/>
+<pad name="5N" x="-5.08" y="-17.78" drill="0.9144" shape="octagon"/>
+<pad name="4N" x="-2.54" y="-17.78" drill="0.9144" shape="octagon"/>
+<pad name="3N" x="0" y="-17.78" drill="0.9144" shape="octagon"/>
+<pad name="2N" x="2.54" y="-17.78" drill="0.9144" shape="octagon"/>
+<pad name="1N" x="5.08" y="-17.78" drill="0.9144" shape="octagon"/>
+<pad name="SR2" x="7.62" y="-17.78" drill="0.9144" shape="octagon"/>
+<pad name="SR1" x="10.16" y="-17.78" drill="0.9144" shape="octagon"/>
+<pad name="BIAS_DRV" x="10.16" y="-20.32" drill="0.9144" shape="octagon"/>
+<pad name="BIAS" x="7.62" y="-20.32" drill="0.9144" shape="octagon"/>
+<pad name="1P" x="5.08" y="-20.32" drill="0.9144" shape="octagon"/>
+<pad name="2P" x="2.54" y="-20.32" drill="0.9144" shape="octagon"/>
+<pad name="3P" x="0" y="-20.32" drill="0.9144" shape="octagon"/>
+<pad name="4P" x="-2.54" y="-20.32" drill="0.9144" shape="octagon"/>
+<pad name="5P" x="-5.08" y="-20.32" drill="0.9144" shape="octagon"/>
+<pad name="6P" x="-7.62" y="-20.32" drill="0.9144" shape="octagon"/>
+<pad name="7P" x="-10.16" y="-20.32" drill="0.9144" shape="octagon"/>
+<pad name="8P" x="-12.7" y="-20.32" drill="0.9144" shape="octagon"/>
 <wire x1="-16.24" y1="-23.36" x2="13.7" y2="-23.36" width="0.127" layer="21"/>
 <wire x1="13.7" y1="-23.36" x2="13.7" y2="32.98" width="0.127" layer="21"/>
 <wire x1="13.7" y1="32.98" x2="-16.24" y2="32.98" width="0.127" layer="21"/>

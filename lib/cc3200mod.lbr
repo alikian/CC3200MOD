@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -62,10 +62,6 @@
 <library>
 <packages>
 <package name="CC3200MOD">
-<wire x1="-10.25" y1="-8.75" x2="-10.25" y2="8.75" width="0.05" layer="21"/>
-<wire x1="-10.25" y1="8.75" x2="10.25" y2="8.75" width="0.05" layer="21"/>
-<wire x1="-10.25" y1="-8.75" x2="10.25" y2="-8.75" width="0.05" layer="21"/>
-<wire x1="10.25" y1="-8.75" x2="10.25" y2="8.75" width="0.05" layer="21"/>
 <smd name="P22" x="-9.525" y="0" dx="0.8" dy="0.8" layer="1"/>
 <smd name="P23" x="-9.525" y="-1.27" dx="0.8" dy="0.8" layer="1"/>
 <smd name="P24" x="-9.525" y="-2.54" dx="0.8" dy="0.8" layer="1"/>
@@ -130,18 +126,18 @@
 <smd name="P61" x="4.5" y="-1.5" dx="2" dy="2" layer="1"/>
 <smd name="P55" x="4.25" y="4.25" dx="1.5" dy="1.5" layer="1"/>
 <text x="-2.54" y="10.16" size="1.27" layer="25">&gt;NAME</text>
-<text x="9.652" y="9.89" size="0.6096" layer="25">1</text>
-<text x="-10.16" y="9.89" size="0.6096" layer="21">16</text>
-<text x="-9.906" y="-9.652" size="0.6096" layer="25">28</text>
-<text x="9.144" y="-10.606" size="0.6096" layer="25">43</text>
-<text x="11.368" y="-6.704" size="0.6096" layer="25">44</text>
-<text x="11.368" y="6.096" size="0.6096" layer="25">54</text>
-<text x="-12.58" y="-6.754" size="0.8128" layer="25">27</text>
-<text x="-12.43" y="6.046" size="0.8128" layer="25">17</text>
-<wire x1="-10.4" y1="-9" x2="-10.4" y2="9" width="0.05" layer="21"/>
-<wire x1="10.4" y1="-9" x2="10.4" y2="9" width="0.05" layer="21"/>
-<wire x1="-10.4" y1="9" x2="10.4" y2="9" width="0.05" layer="21"/>
-<wire x1="-10.4" y1="-9" x2="10.4" y2="-9" width="0.05" layer="21"/>
+<text x="9.652" y="9.89" size="1.016" layer="25">1</text>
+<text x="-10.16" y="9.89" size="1.016" layer="21">16</text>
+<text x="-9.906" y="-10.922" size="1.016" layer="25">28</text>
+<text x="9.144" y="-10.606" size="1.016" layer="25">43</text>
+<text x="11.368" y="-6.704" size="1.016" layer="25">44</text>
+<text x="11.368" y="6.096" size="1.016" layer="25">54</text>
+<text x="-12.58" y="-6.754" size="1.016" layer="25">27</text>
+<text x="-12.43" y="6.046" size="1.016" layer="25">17</text>
+<wire x1="-10.5" y1="-9" x2="-10.5" y2="9" width="0.127" layer="21"/>
+<wire x1="10.5" y1="-9" x2="10.5" y2="9" width="0.127" layer="21"/>
+<wire x1="-10.5" y1="9" x2="10.5" y2="9" width="0.127" layer="21"/>
+<wire x1="-10.5" y1="-9" x2="10.5" y2="-9" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

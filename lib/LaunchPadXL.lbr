@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -62,71 +62,71 @@
 <library>
 <packages>
 <package name="LAUNCHPADXL">
-<pad name="3.3V" x="-22.86" y="10.16" drill="1.016" shape="octagon"/>
-<pad name="GPIO_03" x="-22.86" y="7.62" drill="1.016" shape="octagon"/>
-<pad name="GPIO_13_RX" x="-22.86" y="5.08" drill="1.016" shape="octagon"/>
-<pad name="GPIO_12_TX" x="-22.86" y="2.54" drill="1.016" shape="octagon"/>
-<pad name="GPIO_06" x="-22.86" y="0" drill="1.016" shape="octagon"/>
-<pad name="GPIO_04" x="-22.86" y="-2.54" drill="1.016" shape="octagon"/>
-<pad name="GPIO_14_SP_CLK" x="-22.86" y="-5.08" drill="1.016" shape="octagon"/>
-<pad name="GPIO_07" x="-22.86" y="-7.62" drill="1.016" shape="octagon"/>
-<pad name="GPIO_10" x="-22.86" y="-10.16" drill="1.016" shape="octagon"/>
-<pad name="GPIO_11" x="-22.86" y="-12.7" drill="1.016" shape="octagon"/>
-<pad name="5V" x="-20.32" y="10.16" drill="1.016" shape="octagon"/>
-<pad name="GND1" x="-20.32" y="7.62" drill="1.016" shape="octagon"/>
-<pad name="GPIO_02" x="-20.32" y="5.08" drill="1.016" shape="octagon"/>
-<pad name="GPIO_05" x="-20.32" y="2.54" drill="1.016" shape="octagon"/>
-<pad name="GPIO_03_NC" x="-20.32" y="0" drill="1.016" shape="octagon"/>
-<pad name="GPIO_04_NC" x="-20.32" y="-2.54" drill="1.016" shape="octagon"/>
-<pad name="GPIO_08" x="-20.32" y="-5.08" drill="1.016" shape="octagon"/>
-<pad name="GPIO_30" x="-20.32" y="-7.62" drill="1.016" shape="octagon"/>
-<pad name="GPIO_09" x="-20.32" y="-10.16" drill="1.016" shape="octagon"/>
-<pad name="GPIO_00" x="-20.32" y="-12.7" drill="1.016" shape="octagon"/>
-<pad name="GPIO_11_NC" x="20.32" y="10.16" drill="1.016" shape="octagon"/>
-<pad name="GPIO_10_NC" x="20.32" y="7.62" drill="1.016" shape="octagon"/>
-<pad name="GPIO_24_NC" x="20.32" y="5.08" drill="1.016" shape="octagon"/>
-<pad name="GPIO_09_GPIO_00_NC" x="20.32" y="2.54" drill="1.016" shape="octagon"/>
-<pad name="GPIO_25_GPIO_07_NC" x="20.32" y="0" drill="1.016" shape="octagon"/>
-<pad name="GPIO_28_NC" x="20.32" y="-2.54" drill="1.016" shape="octagon"/>
-<pad name="GPIO_07_NC" x="20.32" y="-5.08" drill="1.016" shape="octagon"/>
-<pad name="GPIO_05_NC" x="20.32" y="-7.62" drill="1.016" shape="octagon"/>
-<pad name="GPIO_23" x="20.32" y="-10.16" drill="1.016" shape="octagon"/>
-<pad name="GPIO_24" x="20.32" y="-12.7" drill="1.016" shape="octagon"/>
-<pad name="GPIO_22" x="22.86" y="-12.7" drill="1.016" shape="octagon"/>
-<pad name="GPIO_01" x="22.86" y="-10.16" drill="1.016" shape="octagon"/>
-<pad name="GPIO_25" x="22.86" y="-7.62" drill="1.016" shape="octagon"/>
-<pad name="GPIO_15_MISO" x="22.86" y="-5.08" drill="1.016" shape="octagon"/>
-<pad name="GPIO_16_MOSI" x="22.86" y="-2.54" drill="1.016" shape="octagon"/>
-<pad name="RESET_OUT" x="22.86" y="0" drill="1.016" shape="octagon"/>
-<pad name="GPIO_31" x="22.86" y="2.54" drill="1.016" shape="octagon"/>
-<pad name="GPIO_17_CS" x="22.86" y="5.08" drill="1.016" shape="octagon"/>
-<pad name="GPIO_28" x="22.86" y="7.62" drill="1.016" shape="octagon"/>
-<pad name="GND2" x="22.86" y="10.16" drill="1.016" shape="octagon"/>
-<text x="-5.08" y="2.54" size="1.27" layer="21">LaunchPad XL</text>
-<wire x1="-24.13" y1="11.43" x2="-19.05" y2="11.43" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="11.43" x2="-19.05" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="-13.97" x2="-24.13" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="-24.13" y1="-13.97" x2="-24.13" y2="11.43" width="0.127" layer="21"/>
-<wire x1="19.05" y1="11.43" x2="19.05" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="19.05" y1="-13.97" x2="24.13" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="24.13" y1="-13.97" x2="24.13" y2="11.43" width="0.127" layer="21"/>
-<wire x1="24.13" y1="11.43" x2="19.05" y2="11.43" width="0.127" layer="21"/>
-<wire x1="-26.67" y1="21.59" x2="26.67" y2="21.59" width="0.127" layer="21"/>
-<wire x1="26.67" y1="21.59" x2="26.67" y2="-19.05" width="0.127" layer="21"/>
-<wire x1="26.67" y1="-19.05" x2="-26.67" y2="-19.05" width="0.127" layer="21"/>
-<wire x1="-26.67" y1="-19.05" x2="-26.67" y2="21.59" width="0.127" layer="21"/>
-<text x="-18.288" y="6.858" size="1.27" layer="21">GND</text>
-<text x="-26.416" y="11.938" size="1.27" layer="21">+3.3V</text>
-<wire x1="-13.716" y1="-14.224" x2="-6.858" y2="-14.224" width="0.127" layer="21"/>
-<wire x1="-6.858" y1="-14.224" x2="-6.858" y2="-18.542" width="0.127" layer="21"/>
+<pad name="3.3V" x="-22.86" y="8.16" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_03" x="-22.86" y="5.62" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_13_RX" x="-22.86" y="3.08" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_12_TX" x="-22.86" y="0.54" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_06" x="-22.86" y="-2" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_04" x="-22.86" y="-4.54" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_14_SP_CLK" x="-22.86" y="-7.08" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_07" x="-22.86" y="-9.62" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_10" x="-22.86" y="-12.16" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_11" x="-22.86" y="-14.7" drill="0.9144" shape="octagon"/>
+<pad name="5V" x="-20.32" y="8.16" drill="0.9144" shape="octagon"/>
+<pad name="GND1" x="-20.32" y="5.62" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_02" x="-20.32" y="3.08" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_05" x="-20.32" y="0.54" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_03_NC" x="-20.32" y="-2" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_04_NC" x="-20.32" y="-4.54" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_08" x="-20.32" y="-7.08" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_30" x="-20.32" y="-9.62" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_09" x="-20.32" y="-12.16" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_00" x="-20.32" y="-14.7" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_11_NC" x="20.32" y="8.16" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_10_NC" x="20.32" y="5.62" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_24_NC" x="20.32" y="3.08" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_09_GPIO_00_NC" x="20.32" y="0.54" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_25_GPIO_07_NC" x="20.32" y="-2" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_28_NC" x="20.32" y="-4.54" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_07_NC" x="20.32" y="-7.08" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_05_NC" x="20.32" y="-9.62" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_23" x="20.32" y="-12.16" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_24" x="20.32" y="-14.7" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_22" x="22.86" y="-14.7" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_01" x="22.86" y="-12.16" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_25" x="22.86" y="-9.62" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_15_MISO" x="22.86" y="-7.08" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_16_MOSI" x="22.86" y="-4.54" drill="0.9144" shape="octagon"/>
+<pad name="RESET_OUT" x="22.86" y="-2" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_31" x="22.86" y="0.54" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_17_CS" x="22.86" y="3.08" drill="0.9144" shape="octagon"/>
+<pad name="GPIO_28" x="22.86" y="5.62" drill="0.9144" shape="octagon"/>
+<pad name="GND2" x="22.86" y="8.16" drill="0.9144" shape="octagon"/>
+<text x="-5.08" y="0.54" size="1.27" layer="21">LaunchPad XL</text>
+<wire x1="-24.13" y1="9.43" x2="-19.05" y2="9.43" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="9.43" x2="-19.05" y2="-15.97" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-15.97" x2="-24.13" y2="-15.97" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="-15.97" x2="-24.13" y2="9.43" width="0.127" layer="21"/>
+<wire x1="19.05" y1="9.43" x2="19.05" y2="-15.97" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-15.97" x2="24.13" y2="-15.97" width="0.127" layer="21"/>
+<wire x1="24.13" y1="-15.97" x2="24.13" y2="9.43" width="0.127" layer="21"/>
+<wire x1="24.13" y1="9.43" x2="19.05" y2="9.43" width="0.127" layer="21"/>
+<wire x1="-26" y1="21" x2="26" y2="21" width="0.127" layer="21"/>
+<wire x1="26" y1="21" x2="26" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="26" y1="-19.05" x2="-26" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="-26" y1="-19.05" x2="-26" y2="21" width="0.127" layer="21"/>
+<text x="-18.288" y="4.858" size="1.27" layer="21">GND</text>
+<text x="-25.146" y="10.668" size="1.27" layer="21">+3.3V</text>
+<wire x1="-13.716" y1="-16.224" x2="-6.858" y2="-16.224" width="0.127" layer="21"/>
+<wire x1="-6.858" y1="-16.224" x2="-6.858" y2="-18.542" width="0.127" layer="21"/>
 <wire x1="-6.858" y1="-18.542" x2="-13.97" y2="-18.542" width="0.127" layer="21"/>
-<wire x1="-13.97" y1="-18.542" x2="-13.97" y2="-14.224" width="0.127" layer="21"/>
-<text x="-12.446" y="-17.018" size="1.27" layer="21">ANT</text>
-<wire x1="6.096" y1="-14.224" x2="13.208" y2="-14.224" width="0.127" layer="21"/>
-<wire x1="13.208" y1="-14.224" x2="13.208" y2="-18.542" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-18.542" x2="-13.97" y2="-16.224" width="0.127" layer="21"/>
+<text x="-12.446" y="-18.288" size="1.27" layer="21">ANT</text>
+<wire x1="6.096" y1="-16.224" x2="13.208" y2="-16.224" width="0.127" layer="21"/>
+<wire x1="13.208" y1="-16.224" x2="13.208" y2="-18.542" width="0.127" layer="21"/>
 <wire x1="13.208" y1="-18.542" x2="6.096" y2="-18.542" width="0.127" layer="21"/>
-<wire x1="6.096" y1="-18.542" x2="6.096" y2="-14.224" width="0.127" layer="21"/>
-<text x="7.874" y="-17.018" size="1.27" layer="21">USB</text>
+<wire x1="6.096" y1="-18.542" x2="6.096" y2="-16.224" width="0.127" layer="21"/>
+<text x="7.874" y="-18.288" size="1.27" layer="21">USB</text>
 </package>
 </packages>
 <symbols>
