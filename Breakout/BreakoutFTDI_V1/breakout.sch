@@ -11293,6 +11293,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value=".1uF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value=".1uF"/>
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="100K"/>
+<part name="L3" library="Spark" deviceset="INDUCTOR-SPARKFUN" device="0603"/>
 </parts>
 <sheets>
 <sheet>
@@ -11817,6 +11818,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="NAME" x="212.09" y="374.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="375.158" size="1.778" layer="96"/>
 </instance>
+<instance part="L3" gate="G$1" x="48.26" y="340.36" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -12172,11 +12174,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="119.38" y="477.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="USB" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="345.44" x2="43.18" y2="345.44" width="0.1524" layer="91"/>
-<label x="43.18" y="345.44" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="490.22" x2="68.58" y2="495.3" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -12208,6 +12205,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="99.06" y="365.76" size="1.778" layer="95"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="355.6" x2="99.06" y2="355.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="L3" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="340.36" x2="58.42" y2="340.36" width="0.1524" layer="91"/>
+<label x="50.8" y="337.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -12557,6 +12559,15 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R29" gate="G$1" pin="1"/>
 <wire x1="454.66" y1="369.57" x2="454.66" y2="361.95" width="0.1524" layer="91"/>
 <label x="450.85" y="359.41" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="USB" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="345.44" x2="38.1" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="345.44" x2="38.1" y2="340.36" width="0.1524" layer="91"/>
+<pinref part="L3" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="340.36" x2="40.64" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
