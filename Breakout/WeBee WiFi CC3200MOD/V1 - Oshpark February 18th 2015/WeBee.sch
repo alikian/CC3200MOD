@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -144,41 +144,41 @@
 <library name="WeeBee">
 <packages>
 <package name="CC3200">
-<smd name="G28" x="8.455" y="5" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="TDO" x="8.455" y="3" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="TDI" x="8.455" y="1" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G22" x="8.455" y="-1" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="SOP2" x="8.455" y="-3" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="SOP0" x="8.455" y="-5" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="RST" x="8.455" y="-7" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="VCC" x="8.455" y="-9" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="TCK" x="8.455" y="7" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="TMS" x="8.455" y="9" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="GND" x="8.455" y="11" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G17" x="8" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G16" x="6" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G15" x="4" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G14" x="2" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G13" x="0" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G12" x="-2" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G11" x="-4" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G10" x="-6" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G09" x="-8" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
-<wire x1="8.955" y1="-11.5" x2="8.955" y2="19" width="0.127" layer="22"/>
-<wire x1="8.955" y1="-11.5" x2="-8.955" y2="-11.5" width="0.127" layer="22"/>
-<wire x1="-8.955" y1="-11.5" x2="-8.955" y2="19" width="0.127" layer="22"/>
-<wire x1="8.955" y1="19" x2="-8.955" y2="19" width="0.127" layer="22"/>
-<smd name="G01" x="-8.455" y="5" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G02" x="-8.455" y="3" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G03" x="-8.455" y="1" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G04" x="-8.455" y="-1" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G05" x="-8.455" y="-3" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G06" x="-8.455" y="-5" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G07" x="-8.455" y="-7" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G08" x="-8.455" y="-9" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G00" x="-8.455" y="7" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G30" x="-8.455" y="9" dx="1" dy="1" layer="1" rot="R180"/>
-<smd name="G31" x="-8.455" y="11" dx="1" dy="1" layer="1" rot="R180"/>
+<smd name="G28" x="-8.455" y="5" dx="1" dy="1" layer="1"/>
+<smd name="TDO" x="-8.455" y="3" dx="1" dy="1" layer="1"/>
+<smd name="TDI" x="-8.455" y="1" dx="1" dy="1" layer="1"/>
+<smd name="G22" x="-8.455" y="-1" dx="1" dy="1" layer="1"/>
+<smd name="SOP2" x="-8.455" y="-3" dx="1" dy="1" layer="1"/>
+<smd name="SOP0" x="-8.455" y="-5" dx="1" dy="1" layer="1"/>
+<smd name="RST" x="-8.455" y="-7" dx="1" dy="1" layer="1"/>
+<smd name="VCC" x="-8.455" y="-9" dx="1" dy="1" layer="1"/>
+<smd name="TCK" x="-8.455" y="7" dx="1" dy="1" layer="1"/>
+<smd name="TMS" x="-8.455" y="9" dx="1" dy="1" layer="1"/>
+<smd name="GND" x="-8.455" y="11" dx="1" dy="1" layer="1"/>
+<smd name="G17" x="-8" y="-11" dx="1" dy="1" layer="1"/>
+<smd name="G16" x="-6" y="-11" dx="1" dy="1" layer="1"/>
+<smd name="G15" x="-4" y="-11" dx="1" dy="1" layer="1"/>
+<smd name="G14" x="-2" y="-11" dx="1" dy="1" layer="1"/>
+<smd name="G13" x="0" y="-11" dx="1" dy="1" layer="1"/>
+<smd name="G12" x="2" y="-11" dx="1" dy="1" layer="1"/>
+<smd name="G11" x="4" y="-11" dx="1" dy="1" layer="1"/>
+<smd name="G10" x="6" y="-11" dx="1" dy="1" layer="1"/>
+<smd name="G09" x="8" y="-11" dx="1" dy="1" layer="1"/>
+<wire x1="-8.955" y1="-11.5" x2="-8.955" y2="19" width="0.127" layer="21"/>
+<wire x1="-8.955" y1="-11.5" x2="8.955" y2="-11.5" width="0.127" layer="21"/>
+<wire x1="8.955" y1="-11.5" x2="8.955" y2="19" width="0.127" layer="21"/>
+<wire x1="-8.955" y1="19" x2="8.955" y2="19" width="0.127" layer="21"/>
+<smd name="G01" x="8.455" y="5" dx="1" dy="1" layer="1"/>
+<smd name="G02" x="8.455" y="3" dx="1" dy="1" layer="1"/>
+<smd name="G03" x="8.455" y="1" dx="1" dy="1" layer="1"/>
+<smd name="G04" x="8.455" y="-1" dx="1" dy="1" layer="1"/>
+<smd name="G05" x="8.455" y="-3" dx="1" dy="1" layer="1"/>
+<smd name="G06" x="8.455" y="-5" dx="1" dy="1" layer="1"/>
+<smd name="G07" x="8.455" y="-7" dx="1" dy="1" layer="1"/>
+<smd name="G08" x="8.455" y="-9" dx="1" dy="1" layer="1"/>
+<smd name="G00" x="8.455" y="7" dx="1" dy="1" layer="1"/>
+<smd name="G30" x="8.455" y="9" dx="1" dy="1" layer="1"/>
+<smd name="G31" x="8.455" y="11" dx="1" dy="1" layer="1"/>
 </package>
 </packages>
 <symbols>
