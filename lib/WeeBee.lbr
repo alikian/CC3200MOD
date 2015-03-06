@@ -82,10 +82,10 @@
 <smd name="G11" x="-4" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
 <smd name="G10" x="-6" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
 <smd name="G09" x="-8" y="-11" dx="1" dy="1" layer="1" rot="R180"/>
-<wire x1="8.955" y1="-11.5" x2="8.955" y2="19" width="0.127" layer="22"/>
-<wire x1="8.955" y1="-11.5" x2="-8.955" y2="-11.5" width="0.127" layer="22"/>
-<wire x1="-8.955" y1="-11.5" x2="-8.955" y2="19" width="0.127" layer="22"/>
-<wire x1="8.955" y1="19" x2="-8.955" y2="19" width="0.127" layer="22"/>
+<wire x1="8.955" y1="-11.5" x2="8.955" y2="19" width="0.127" layer="21"/>
+<wire x1="8.955" y1="-11.5" x2="-8.955" y2="-11.5" width="0.127" layer="21"/>
+<wire x1="-8.955" y1="-11.5" x2="-8.955" y2="19" width="0.127" layer="21"/>
+<wire x1="8.955" y1="19" x2="-8.955" y2="19" width="0.127" layer="21"/>
 <smd name="G01" x="-8.455" y="5" dx="1" dy="1" layer="1" rot="R180"/>
 <smd name="G02" x="-8.455" y="3" dx="1" dy="1" layer="1" rot="R180"/>
 <smd name="G03" x="-8.455" y="1" dx="1" dy="1" layer="1" rot="R180"/>
@@ -97,6 +97,8 @@
 <smd name="G00" x="-8.455" y="7" dx="1" dy="1" layer="1" rot="R180"/>
 <smd name="G30" x="-8.455" y="9" dx="1" dy="1" layer="1" rot="R180"/>
 <smd name="G31" x="-8.455" y="11" dx="1" dy="1" layer="1" rot="R180"/>
+<text x="-1.27" y="5.08" size="1.27" layer="21" rot="R270" align="bottom-center">WeBee WiFi 
+CC3200MOD</text>
 </package>
 </packages>
 <symbols>
