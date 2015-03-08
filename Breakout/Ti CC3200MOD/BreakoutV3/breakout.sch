@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5316,22 +5316,12 @@ W = angled&lt;p&gt;
 <wire x1="19.05" y1="-15.97" x2="24.13" y2="-15.97" width="0.127" layer="21"/>
 <wire x1="24.13" y1="-15.97" x2="24.13" y2="9.43" width="0.127" layer="21"/>
 <wire x1="24.13" y1="9.43" x2="19.05" y2="9.43" width="0.127" layer="21"/>
-<wire x1="-26" y1="21" x2="26" y2="21" width="0.127" layer="21"/>
-<wire x1="26" y1="21" x2="26" y2="-19.05" width="0.127" layer="21"/>
-<wire x1="26" y1="-19.05" x2="-26" y2="-19.05" width="0.127" layer="21"/>
-<wire x1="-26" y1="-19.05" x2="-26" y2="21" width="0.127" layer="21"/>
+<wire x1="-26.5" y1="23" x2="26.5" y2="23" width="0.127" layer="21"/>
+<wire x1="26.5" y1="23" x2="26.5" y2="-20" width="0.127" layer="21"/>
+<wire x1="26.5" y1="-20" x2="-26.5" y2="-20" width="0.127" layer="21"/>
+<wire x1="-26.5" y1="-20" x2="-26.5" y2="23" width="0.127" layer="21"/>
 <text x="-18.288" y="4.858" size="1.27" layer="21">GND</text>
 <text x="-25.146" y="10.668" size="1.27" layer="21">+3.3V</text>
-<wire x1="-13.716" y1="-16.224" x2="-6.858" y2="-16.224" width="0.127" layer="21"/>
-<wire x1="-6.858" y1="-16.224" x2="-6.858" y2="-18.542" width="0.127" layer="21"/>
-<wire x1="-6.858" y1="-18.542" x2="-13.97" y2="-18.542" width="0.127" layer="21"/>
-<wire x1="-13.97" y1="-18.542" x2="-13.97" y2="-16.224" width="0.127" layer="21"/>
-<text x="-12.446" y="-18.288" size="1.27" layer="21">ANT</text>
-<wire x1="6.096" y1="-16.224" x2="13.208" y2="-16.224" width="0.127" layer="21"/>
-<wire x1="13.208" y1="-16.224" x2="13.208" y2="-18.542" width="0.127" layer="21"/>
-<wire x1="13.208" y1="-18.542" x2="6.096" y2="-18.542" width="0.127" layer="21"/>
-<wire x1="6.096" y1="-18.542" x2="6.096" y2="-16.224" width="0.127" layer="21"/>
-<text x="7.874" y="-18.288" size="1.27" layer="21">USB</text>
 </package>
 </packages>
 <symbols>
